@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 26306402}
   - component: {fileID: 26306401}
   m_Layer: 0
-  m_Name: "Global Light 2D do cen\xE1rio 2"
+  m_Name: Global Light 2D luz do teto 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -319,7 +319,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &279264928
 BoxCollider2D:
@@ -535,7 +535,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 619394802}
   - component: {fileID: 619394801}
   m_Layer: 0
-  m_Name: "Global Light 2D do cen\xE1rio 1"
+  m_Name: Global Light 2D luz do teto 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -779,6 +779,7 @@ GameObject:
   - component: {fileID: 775077688}
   - component: {fileID: 775077689}
   - component: {fileID: 775077690}
+  - component: {fileID: 775077691}
   m_Layer: 0
   m_Name: Protagonist Lau
   m_TagString: Untagged
@@ -846,13 +847,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 775077685}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.42, y: -1.53, z: 0}
+  m_LocalPosition: {x: -1.58, y: -3.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 519420032}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &775077688
 MonoBehaviour:
@@ -887,7 +888,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!58 &775077690
 CircleCollider2D:
@@ -905,6 +906,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -1.6}
   serializedVersion: 2
   m_Radius: 0.45
+--- !u!114 &775077691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775077685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da8914db6fed572418e6ac522b65f402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &822059826
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,7 +929,7 @@ GameObject:
   - component: {fileID: 822059828}
   - component: {fileID: 822059827}
   m_Layer: 0
-  m_Name: Global Light 2D do computador  (2)
+  m_Name: Global Light 2D do computador  3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1122,7 +1135,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &886012690
 GameObject:
@@ -1135,7 +1148,7 @@ GameObject:
   - component: {fileID: 886012692}
   - component: {fileID: 886012691}
   m_Layer: 0
-  m_Name: "Global Light 2D do cen\xE1rio 2 (1)"
+  m_Name: Global Light 2D luz do teto 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1233,7 +1246,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &888350219
 GameObject:
@@ -1246,7 +1259,7 @@ GameObject:
   - component: {fileID: 888350221}
   - component: {fileID: 888350220}
   m_Layer: 0
-  m_Name: "Global Light 2D do cen\xE1rio 1 (1)"
+  m_Name: Global Light 2D luz do teto 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1344,7 +1357,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &914363912
 GameObject:
@@ -1357,7 +1370,7 @@ GameObject:
   - component: {fileID: 914363914}
   - component: {fileID: 914363913}
   m_Layer: 0
-  m_Name: Global Light 2D do computador  (1)
+  m_Name: Global Light 2D do computador  2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1563,7 +1576,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &923996843
 GameObject:
@@ -1576,7 +1589,7 @@ GameObject:
   - component: {fileID: 923996845}
   - component: {fileID: 923996844}
   m_Layer: 0
-  m_Name: 'Global Light 2D do computador '
+  m_Name: Global Light 2D do computador  1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1779,7 +1792,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &936675284
 GameObject:
@@ -1865,7 +1878,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &936675288
 BoxCollider2D:
@@ -2023,12 +2036,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987868190}
   m_LocalRotation: {x: 0, y: 0, z: 0.99985284, w: -0.017157871}
-  m_LocalPosition: {x: 30.431847, y: 7.148326, z: 0}
+  m_LocalPosition: {x: 99.7, y: 7.148326, z: 0}
   m_LocalScale: {x: 1.1489, y: 1.3331065, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1017570899
 GameObject:
@@ -2041,7 +2054,7 @@ GameObject:
   - component: {fileID: 1017570901}
   - component: {fileID: 1017570900}
   m_Layer: 0
-  m_Name: "Global Light 2D do cen\xE1rio 3"
+  m_Name: Global Light 2D do abajur 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2139,7 +2152,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1018198683
 GameObject:
@@ -2277,7 +2290,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1361548226
 GameObject:
@@ -2290,7 +2303,7 @@ GameObject:
   - component: {fileID: 1361548228}
   - component: {fileID: 1361548227}
   m_Layer: 0
-  m_Name: "Global Light 2D do cen\xE1rio 3 (1)"
+  m_Name: Global Light 2D do abajur 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2388,7 +2401,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1369880463
 GameObject:
@@ -2526,7 +2539,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1504119508
 GameObject:
@@ -2664,7 +2677,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1666791145
 GameObject:
@@ -2676,6 +2689,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1666791147}
   - component: {fileID: 1666791146}
+  - component: {fileID: 1666791150}
+  - component: {fileID: 1666791149}
+  - component: {fileID: 1666791148}
   m_Layer: 0
   m_Name: Antagonist Neg Lau
   m_TagString: Untagged
@@ -2743,13 +2759,68 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666791145}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15, y: -2.1, z: 0}
+  m_LocalPosition: {x: 48.91, y: -2.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1666791148
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666791145}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.79}
+  serializedVersion: 2
+  m_Radius: 0.8204889
+--- !u!50 &1666791149
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666791145}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!114 &1666791150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666791145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f992ed84eb146e479d6e803d411a9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Protagonist_Lau: {fileID: 775077687}
+  rb: {fileID: 1666791149}
+  Speed: 2
+  Vision_reach: 8
+  Attack_range: 3
+  Attack_Speed: 0.5
 --- !u!1 &1872848830
 GameObject:
   m_ObjectHideFlags: 0
@@ -2886,7 +2957,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2032164011
 GameObject:
@@ -3024,7 +3095,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2035870753
 GameObject:
@@ -3037,7 +3108,7 @@ GameObject:
   - component: {fileID: 2035870755}
   - component: {fileID: 2035870754}
   m_Layer: 0
-  m_Name: "Global Light 2D do cen\xE1rio 1 (2)"
+  m_Name: Global Light 2D luz do teto 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3135,7 +3206,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2085093582
 GameObject:
@@ -3273,5 +3344,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
