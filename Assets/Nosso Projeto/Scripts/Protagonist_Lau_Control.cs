@@ -10,15 +10,46 @@ public class Protagonist_Lau_Control : MonoBehaviour
     //Criação de Variáveis
     private float x, y;
 
+
+    public Animator Lau_Anim;
+
     //o Update Verificação se qualquer tecla foi pressionada
     private void Update()
     {
+        
         //atribuir valores a X e Y
         x = Input.GetAxisRaw ("Horizontal");
         y = Input.GetAxisRaw ("Vertical");
 
+    }
+    // comando para acinar a animacao 
+    private void LateUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            Lau_Anim.SetBool("Corre para frente", true);
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            Lau_Anim.SetBool("Corre para tras", true);
+        }
+
+
+        if (Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            Lau_Anim.SetBool("Corre para frente", false);
+        }
+        if (Input.GetKeyUp(KeyCode.LeftArrow))
+        {
+            Lau_Anim.SetBool("Corre para tras", false);
+        }
+
+
+
 
     }
+
+
 
     //o FixedUpdate serve para movimentar ter fisica 
     private void FixedUpdate()
