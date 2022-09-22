@@ -25,6 +25,7 @@ public class Protagonist_Lau_Control : MonoBehaviour
     // comando para acinar a animacao 
     private void LateUpdate()
     {
+        //quando acionado o bool vai para verdadeiro e aciona a animacao 
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             Lau_Anim.SetBool("Corre para frente", true);
@@ -34,7 +35,7 @@ public class Protagonist_Lau_Control : MonoBehaviour
             Lau_Anim.SetBool("Corre para tras", true);
         }
 
-
+        //quando para de apreta o botao o bool fica fauso e a animacao para
         if (Input.GetKeyUp(KeyCode.RightArrow))
         {
             Lau_Anim.SetBool("Corre para frente", false);
