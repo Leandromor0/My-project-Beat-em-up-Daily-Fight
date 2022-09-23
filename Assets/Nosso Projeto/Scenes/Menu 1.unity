@@ -262,8 +262,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 175.37494, y: 172.40625}
-  m_SizeDelta: {x: 484.8768, y: 221.2866}
+  m_AnchoredPosition: {x: -201, y: 138}
+  m_SizeDelta: {x: 533.4703, y: 221.2866}
   m_Pivot: {x: 0.49999994, y: 0.50000006}
 --- !u!114 &232829982
 MonoBehaviour:
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: o Tratamento contra o TDAH
+  m_text: '  a Luta contra o TDAH'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -96.0238, w: 0}
+  m_margin: {x: 0, y: 0, z: 6.994568, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -896,7 +896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -466.39124, y: -205.54219}
+  m_AnchoredPosition: {x: 498, y: -209}
   m_SizeDelta: {x: -1049.6372, y: -498.5796}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &908556623
@@ -1306,7 +1306,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d8e1c7260cd2adf4aab273d411041a27, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2b271cf3546c6364186814cebcfd9fb6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
