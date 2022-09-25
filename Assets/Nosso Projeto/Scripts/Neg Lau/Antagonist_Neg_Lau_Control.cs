@@ -40,9 +40,7 @@ public class Antagonist_Neg_Lau_Control : MonoBehaviour
 
         Antogonist_IA();
 
-
     }
-
 
     private void FixedUpdate()
     {
@@ -50,13 +48,7 @@ public class Antagonist_Neg_Lau_Control : MonoBehaviour
         //usando RB que criamos la em cima podemos ter movimento 
         rb.velocity = movement * Speed;
 
-        
-        
-
     }
-
-
-
 
     //criar o ataque 
 
@@ -73,19 +65,13 @@ public class Antagonist_Neg_Lau_Control : MonoBehaviour
 
 
             Protagonist_Lau.GetComponent<Protagonist_Lau_Life_Bar_Control> ().TakeDamage(Attack_Force) ;
-
-
         }
 
         else 
         {
         
         }
-
-
     }
-
-
 
     //presequir o jogador 
 
@@ -97,14 +83,7 @@ public class Antagonist_Neg_Lau_Control : MonoBehaviour
         Direction = Direction.normalized;
 
         movement = Direction;
-
-
     }
-
-
-
-
-
 
     void Antogonist_IA()
     {
@@ -135,21 +114,13 @@ public class Antagonist_Neg_Lau_Control : MonoBehaviour
                 Chase_Protagonist_Lau();
 
             }
-
         }
         //se o player Não estive na visão então
         else
         {
-
             Debug.Log("Neg Lau não pode ver o lau ");
 
             movement = Vector2.zero;
-
-
         }
-
-
     }
-
-
 }

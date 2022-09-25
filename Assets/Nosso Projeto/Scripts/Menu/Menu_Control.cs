@@ -16,6 +16,21 @@ public class Menu_Control : MonoBehaviour
 
     }
 
+    public void Return_Menu()
+    {
+
+        SceneManager.LoadScene(0);
+
+
+    }
+
+    public void Play_Again()
+    {
+
+        SceneManager.LoadScene(2);
+
+
+    }
 
     public void Quit_Game()
     {
