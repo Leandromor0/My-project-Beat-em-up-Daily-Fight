@@ -21,7 +21,7 @@ public class Antagonist_Neg_Lau_Control : MonoBehaviour
     [SerializeField] float Attack_range;
     [SerializeField] float Attack_Force;
 
-    [SerializeField] AudioSource Soco_do_Neg_Lau;
+    
 
     //variaveis para o ataque e o tempo 
     [SerializeField] float Attack_Speed;
@@ -68,8 +68,7 @@ public class Antagonist_Neg_Lau_Control : MonoBehaviour
 
 
             Protagonist_Lau.GetComponent<Protagonist_Lau_Life_Bar_Control> ().TakeDamage(Attack_Force) ;
-            Soco_do_Neg_Lau.Play();
-            Soco_do_Neg_Lau.Stop();
+            
         }
 
         else 
