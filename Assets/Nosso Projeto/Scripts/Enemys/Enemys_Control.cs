@@ -19,6 +19,8 @@ public class Enemys_Control : MonoBehaviour
 
     Vector2 movement;
 
+    [SerializeField] AudioSource Socos_dos_inimigos;
+
     [SerializeField] float Vision_reach;
     [SerializeField] float Attack_range;
     [SerializeField] float Attack_Force;
@@ -122,7 +124,12 @@ public class Enemys_Control : MonoBehaviour
             if (_Protagonist_Lau_Distance <= Attack_range && canAttack)
             {
                 Debug.Log("Enemys podem atacar o lau ");
+                
+                
+
                 StartCoroutine(AttackCoroutine());
+
+                
             }
             //então eles não podem atacar e vão perseguir 
             else
@@ -147,13 +154,21 @@ public class Enemys_Control : MonoBehaviour
     IEnumerator AttackCoroutine()
     {
         canAttack = false;
+        Socos_dos_inimigos.Play();
+        
         Protagonist_Lau.gameObject.GetComponent<Protagonist_Lau_Life_Bar_Control>().TakeDamage(Attack_Force);
         if (isBoss)
         {
+           
+
             bossAnimator.SetTrigger("Soco");
+
+            
         }
         yield return new WaitForSeconds(attackDelay);
         canAttack = true;
+        
+        Socos_dos_inimigos.Stop();
 
     }
 

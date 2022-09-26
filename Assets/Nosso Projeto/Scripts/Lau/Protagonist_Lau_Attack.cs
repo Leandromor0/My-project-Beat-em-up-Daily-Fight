@@ -10,6 +10,9 @@ public class Protagonist_Lau_Attack : MonoBehaviour
     public BoxCollider2D attackArea;
     private bool canAttack = true;
 
+
+    [SerializeField] AudioSource Sons_soco_Lau;
+
     [SerializeField]
     private float attackDelay = 1f;
     [SerializeField]
@@ -19,6 +22,8 @@ public class Protagonist_Lau_Attack : MonoBehaviour
 
     void Start()
     {
+
+
         Anim_Ataque = gameObject.GetComponent<Animator>();
     }
 
@@ -41,6 +46,9 @@ public class Protagonist_Lau_Attack : MonoBehaviour
 
     IEnumerator AttackCoroutine()
     {
+
+
+        Sons_soco_Lau.Play();
         canAttack = false;
         Anim_Ataque.SetTrigger("Soco");
         if(enemyTarget != null)
@@ -49,7 +57,7 @@ public class Protagonist_Lau_Attack : MonoBehaviour
         }
         yield return new WaitForSeconds(attackDelay);
         canAttack = true;
-
+        Sons_soco_Lau.Stop();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
