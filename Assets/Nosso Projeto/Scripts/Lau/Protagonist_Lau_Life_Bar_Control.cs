@@ -58,7 +58,7 @@ public class Protagonist_Lau_Life_Bar_Control : MonoBehaviour
     {
         Debug.Log("Lau Morreu");
         Dead = true;
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
 
     }
 

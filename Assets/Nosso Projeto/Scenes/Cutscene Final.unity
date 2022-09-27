@@ -311,8 +311,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'TDAH (Neg_Lau): Voce pode ter me derrotado, mas voce sabe, eu nunca irei
-    embora! Eu sempre vou estar aqui!'
+  m_text: 'TDAH: Voce pode ter me derrotado, mas voce sabe, eu nunca irei embora!
+    Eu sempre vou estar aqui!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -603,8 +603,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'TDAH (Neg_Lau): e o que voce pretende fazer espertinho, vai tentar ser
-    meu amigo, ha ha'
+  m_text: 'TDAH: E o que voce pretende fazer, espertinho? Vai tentar ficar de boa
+    comigo?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -760,7 +760,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lau: e... Voce tem raz\xE3o!"
+  m_text: 'Lau: Bem... Voce esta certo!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -963,7 +963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Final ganhou
-  changeTime: 40
+  changeTime: 55
 --- !u!4 &501200390
 Transform:
   m_ObjectHideFlags: 0
@@ -1353,7 +1353,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'TDAH (Neg_Lau): OK OK, chato  '
+  m_text: 'TDAH: Ah, pode deixar, eu tenho certeza de que vou lembrar!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TDAH (Neg_Lau):Espera o que?
+  m_text: 'TDAH: Espera... o que?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1733,7 +1733,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TDAH (Neg_Lau):hum, pode ser vamos tentear o seu metodo
+  m_text: 'TDAH: Hum... Nao tinha pensado nisso. Acho que... podemos tentar.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1889,8 +1889,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lau: Nao vai ser tranquilo, mas acho que vai ser melhor do que ficar lutando
-    contra voce todos os dias'
+  m_text: 'Lau: Nao sei se vou ficar de boa, mas acho que vai ser melhor do que ficar
+    lutando contra voce todos os dias'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -2167,8 +2167,6 @@ PlayableDirector:
     value: {fileID: 854712287}
   - key: {fileID: -3065995250167697397, guid: 7a65a5d41cec7784ca178401f73e1679, type: 2}
     value: {fileID: 892978512}
-  - key: {fileID: 7686675651232704710, guid: 7a65a5d41cec7784ca178401f73e1679, type: 2}
-    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1815253871
