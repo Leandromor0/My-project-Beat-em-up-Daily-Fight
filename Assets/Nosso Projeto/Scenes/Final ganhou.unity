@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 385.66, y: 92.409}
-  m_SizeDelta: {x: 594.681, y: 184.817}
+  m_AnchoredPosition: {x: 427.31, y: -236}
+  m_SizeDelta: {x: 511.3784, y: 237.8278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &79324836
 MonoBehaviour:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: O grupo 6 agradece ao professor Cleber os ensinamentos
+  m_text: O grupo 6 agradece aos professores  os ensinamentos
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1102,7 +1102,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 126.26, y: -236}
+  m_AnchoredPosition: {x: -65, y: -236}
   m_SizeDelta: {x: -868.2701, y: -538.4404}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &908556623
@@ -1309,7 +1309,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Parabens, voce derrotou o TDAH!\n \nObrigada por jogar o prototipo de "
+  m_text: "Parabens, voce conseguiu!\n \nObrigada por jogar o prototipo de "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1624,7 +1624,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -254, y: -146}
+  m_AnchoredPosition: {x: -434, y: -145.54}
   m_SizeDelta: {x: -518.0549, y: -291.0734}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2035939688
